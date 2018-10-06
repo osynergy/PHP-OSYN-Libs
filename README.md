@@ -2,8 +2,8 @@
 Clases y funciones PHP para diferentes usos.
 
 
-**class.dineroaletras.php**
 ***
+**class.dineroaletras.php**
 Convertir un número que equivale a moneda (precio de algún artículo) a su equivalente en palabras/letras/texto,
 he perdido las referencias de orígen del archivo, pero no es de autoría propia, aún así considero relevante su 
 publicación debido a su practicidad de uso.
@@ -12,9 +12,9 @@ Originalmente eran funciones separadas, las he encapsulado en una clase sencilla
 
 $variable_invoca_clase = new dineroaletras;
 
-1. echo $variable_invoca_clase->numeroaletras("4321"); /* Ejecutar numero entero */
+- echo $variable_invoca_clase->numeroaletras("4321"); /* Ejecutar numero entero */
 
-2. echo $variable_invoca_clase->numeroaletras("4321.56"); /* Ejecutar numero flotante */
+- echo $variable_invoca_clase->numeroaletras("4321.56"); /* Ejecutar numero flotante */
 
 
 Restricciones: 
